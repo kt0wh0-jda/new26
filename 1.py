@@ -9,5 +9,4 @@ for i in range(0, len(x), 3):
     if x[i+1] == x[i+2]:
         KimSum+=1
 
-print(HarrySum, KimSum)
 print(abs(HarrySum - KimSum))
